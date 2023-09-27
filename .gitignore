@@ -1,0 +1,9 @@
+# Ignore node modules
+/node_modules
+npm-debug.log
+.DS_Store
+nohup.out
+*.tmp
+
+# ignore config
+/config.js

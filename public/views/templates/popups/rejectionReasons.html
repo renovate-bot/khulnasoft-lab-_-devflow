@@ -1,0 +1,13 @@
+<section class="popup popup-rejection-reasons">
+    <header>Main Alert Reasons</header>
+    <div>
+        <form>
+            <label ng-repeat="(reason, reasonText) in reasons">
+                <input type="checkbox" name="rejectionReasons" ng-value="reason" ng-click="toggleRejectionReason(reason)" ng-checked="isSelected(reason)">
+                {{reasonText}}
+            </label>
+        </form>
+    </div>
+
+    <a class="btn-standard" ng-click="reject()">Save</a>
+</section>

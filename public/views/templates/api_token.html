@@ -1,0 +1,7 @@
+<div>
+    <a class="btn-standard" ng-click="generateToken()">Generate API Token</a>
+    <div ng-if="token" style="padding-top: 20px">
+        <h3>JSON WEB TOKEN</h3>
+        <textarea rows="10" cols="50" ng-click="this.select()" readonly="readonly" ng-model="token"></textarea><br>
+    </div>
+</div>
